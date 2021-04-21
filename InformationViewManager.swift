@@ -1,6 +1,5 @@
 //
-//  SoftAlertView.swift
-//  UIComponents
+//  InformationViewManager.swift
 //
 //  Created by N A Shashank on 21/04/21.
 //  Copyright © 2021 Shashank. All rights reserved.
@@ -51,7 +50,6 @@ public final class InformationViewManager {
         let label = UILabel()
         label.numberOfLines = 0
         
-//        BrentCornerRadiusType.roundedCorner.applyTo(view: containerView)
         containerView.layer.masksToBounds = true
         containerView.layer.cornerRadius = CGFloat(8)
         
